@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://jkur16:Dec261983*@cluster0.cop4i.mongodb.net/ReduxStore?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:3000', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
